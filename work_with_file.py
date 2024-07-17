@@ -113,7 +113,6 @@ def main():
             alter_row(filename)
         elif command == 'c':
             if not exists(second_file):
-                print("Файл не существует. Создайте его.")
                 create_file(second_file)
                 continue
             copy_row(filename, second_file)
